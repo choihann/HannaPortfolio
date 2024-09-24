@@ -5,14 +5,28 @@
 }
 
 body {
-    font-family: 'Courier New', Courier, monospace; 
+    font-family: 'Courier Prime', monospace; 
     background-color: #faf3e0;  /* off white */
     color: #333;
     line-height: 1.6;
     padding: 20px;
 }
 
-/* Header styling */
+
+/* blinking cursor to further the aesthetic */
+.cursor {
+    display: inline-block;
+    background-color: #e0e0e0;
+    width: 8px;
+    margin-left: 3px;
+    animation: blink 1s step-start infinite;
+}
+
+@keyframes blink {
+    50% { background-color: transparent; }
+}
+
+/* header */
 header {
     background-color: #7a958f;  /* soft green color */
     color: #fff;
@@ -44,7 +58,7 @@ nav ul li {
 nav ul li a {
     color: #fff;
     text-decoration: none;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Courier Prime', monospace; 
     font-size: 1.2em;
     font-weight: bold;
 }
@@ -57,10 +71,15 @@ nav ul li a:hover {
     text-align: center;
     margin: 40px auto;
     padding: 20px;
-    background-color: #fffbe6;  /* warm beige */
+    background-color: #3d3d3d;  /* made brighter */
     max-width: 800px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);  /* smol shadow */
     border-radius: 15px;
+}
+
+.intro:hover {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    transform: translateY(-2px);  /* */
 }
 
 .intro h2 {
@@ -71,7 +90,7 @@ nav ul li a:hover {
 }
 
 .intro p {
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Courier Prime', monospace; 
     font-size: 1.1em;
     color: #555;
     max-width: 600px;
