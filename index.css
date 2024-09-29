@@ -71,6 +71,14 @@ nav ul li a:hover {
     border-radius: 5px; /* helps with smoothening things out */
 }
 
+/* active page link is hightlighted for easier navigation */
+nav ul li a.active {
+    text-decoration: underline;
+    background-color: #A9DCA9;
+    border-radius: 5px;
+}
+
+
 .intro {
     text-align: center;
     margin: 40px auto;
