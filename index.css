@@ -65,6 +65,10 @@ nav ul li a {
 
 nav ul li a:hover {
     text-decoration: underline;  /* underline hover for the aesthetic */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transform: translateY(-2px);
+    background-color: #A9DCA9; /* got a slightly darker shade of green to enhace effect */
+    border-radius: 5px; /* helps with smoothening things out */
 }
 
 .intro {
