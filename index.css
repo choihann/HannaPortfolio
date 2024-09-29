@@ -28,7 +28,7 @@ body {
 
 /* header */
 header {
-    background-color: #7a958f;  /* soft green color */
+    background-color: #B9DCA9;  /* soft green color */
     color: #fff;
     padding: 20px 0;
     text-align: center;
@@ -71,7 +71,7 @@ nav ul li a:hover {
     text-align: center;
     margin: 40px auto;
     padding: 20px;
-    background-color: #3d3d3d;  /* made brighter */
+    background-color: #B9DCA9;  /* made brighter */
     max-width: 800px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);  /* smol shadow */
     border-radius: 15px;
@@ -101,7 +101,7 @@ nav ul li a:hover {
 footer {
     text-align: center;
     padding: 15px;
-    background-color: #7a958f;
+    background-color: #B9DCA9;
     color: white;
     margin-top: 40px;
     border-top-left-radius: 15px;
