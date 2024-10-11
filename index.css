@@ -64,7 +64,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    background-color: #8fb4a4; /* slightly darker sage green */
+    background-color: #A7C6BD; /* slightly darker sage green */
     color: #f7f3e9; /* off-white to add contrast*/
 }
 
@@ -72,7 +72,7 @@ nav ul li a:hover {
 /* active page link is hightlighted for easier navigation */
 nav ul li a.active {
     text-decoration: underline;
-    background-color: #A9DCA9;
+    background-color: #a7d0bd;
     border-radius: 5px;
 }
 
@@ -106,10 +106,18 @@ nav ul li a.active {
     line-height: 1.8;
 }
 
+/* soft border/margin to create clear separation */
+.section {
+    margin: 60px auto;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+
 footer {
     text-align: center;
     padding: 15px;
-    background-color: #B9DCA9;
+    background-color: #A7C6BD;
     color: white;
     margin-top: 40px;
     border-top-left-radius: 15px;
