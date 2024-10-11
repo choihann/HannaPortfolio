@@ -6,7 +6,7 @@
 
 body {
     font-family: 'Courier Prime', monospace; 
-    background-color: #faf3e0;  /* off white */
+    background-color: #f7f3e9;  /* off white */
     color: #333;
     line-height: 1.6;
     padding: 20px;
@@ -28,7 +28,7 @@ body {
 
 /* header */
 header {
-    background-color: #B9DCA9;  /* soft green color */
+    background-color: #A7C6BD;  /* sage green, might be easier to read */
     color: #fff;
     padding: 20px 0;
     text-align: center;
@@ -64,12 +64,10 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    text-decoration: underline;  /* underline hover for the aesthetic */
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    transform: translateY(-2px);
-    background-color: #A9DCA9; /* got a slightly darker shade of green to enhace effect */
-    border-radius: 5px; /* helps with smoothening things out */
+    background-color: #8fb4a4; /* slightly darker sage green */
+    color: #f7f3e9; /* off-white to add contrast*/
 }
+
 
 /* active page link is hightlighted for easier navigation */
 nav ul li a.active {
@@ -79,19 +77,17 @@ nav ul li a.active {
 }
 
 
-.intro {
-    text-align: center;
-    margin: 40px auto;
-    padding: 20px;
-    background-color: #B9DCA9;  /* made brighter */
-    max-width: 800px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);  /* smol shadow */
-    border-radius: 15px;
+.intro { /* the intro will stretch across the screen */
+    background: linear-gradient(135deg, #f7f3e9, #E3ECE7); /* yayyy gradient */
+    padding: 50px 20px;
+    border-radius: 0; /* no radius, hopefully will make this feel smooth */
+    max-width: 100%;
 }
+
 
 .intro:hover {
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
-    transform: translateY(-2px);  /* */
+    transform: translateY(-3px); 
 }
 
 .intro h2 {
