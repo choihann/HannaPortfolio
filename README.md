@@ -29,3 +29,4 @@ git add submission
 git commit -m "added HTML and CSS files for lab3"
 git push
 ```
+I used Anthropic's Claude to assist in this assignment.
